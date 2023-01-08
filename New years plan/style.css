@@ -1,0 +1,260 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-image: url("images/banner/banner1.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+
+}
+
+.primary-btn {
+    height: 60px;
+    color: white;
+    background-color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+    padding: 0px 36px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.primary-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.primary-title {
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+
+}
+
+.primary-subtitle {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 18px;
+    margin-bottom: 10px;
+
+}
+
+.main {
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.banner {
+    text-align: right;
+    margin: 0px 100px 150px 700px;
+    padding: 170px 100px 10px 100px;
+
+
+}
+
+.banner h1 {
+    margin-top: 0px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    color: #151414;
+
+}
+
+.banner p {
+    margin: 25px 0px 30px 50px;
+}
+
+.primary-btn:hover {
+    height: 60px;
+    color: #F15B22;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+
+/* failure section start  */
+
+.failures {
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+}
+
+.failure-description {
+    width: 50%;
+    padding: 220px 100px 20px 120px;
+}
+
+.failure-pic {
+    width: 50%;
+}
+
+.failure-description .p1 {
+    margin: 24px 0;
+}
+
+.failure-description h1 {
+    padding: 0px 60px 0 0;
+}
+
+.failure-description .primary-description {
+    line-height: 20px;
+}
+
+/* failure section end */
+
+
+/* my plan about skills start  */
+.plans {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.plan-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    gap: 60px;
+}
+
+.plans>h1 {
+    margin: 30px 0 80px 0;
+}
+
+.plans {
+    margin-bottom: 0px;
+}
+
+/* my plan about skills end  */
+
+
+
+
+/* my plan about sprituality start */
+.plan-list h1 {
+    margin: 25px 0 10px 0;
+
+}
+
+.p2 div:hover {
+    border: 3px solid #F15B22;
+    background-color: white;
+    color: #F15B22;
+    border-radius: 5px;
+}
+
+.p2 div {
+    padding: 15px;
+}
+
+/* my plan about sprituality end  */
+
+
+/* gradient section start */
+
+.gradient-section {
+    background-image: url("images/gradient2.png"), url("images/watch.png");
+    background-size: cover;
+    background-position: center;
+    padding: 70px 590px 70px 70px;
+    height: 250px;
+    margin-bottom: 100px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.gradient h1 {
+    color: white;
+    margin-bottom: 24px;
+}
+
+.gradient-btn {
+    height: 60px;
+    color: #F15B22;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 0px 36px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.gradient-section:hover {
+    border: 2px solid black;
+}
+
+/* gradient section end */
+
+
+/* footer start */
+
+footer {
+    background-color: black;
+    height: 600px;
+}
+
+.footer {
+    display: flex;
+    padding: 130px 200px 50px 200px;
+}
+
+.social-media {
+    display: flex;
+    gap: 25px;
+}
+
+.future h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.footer p {
+    color: #F8F8F8;
+    padding: 16px 300px 16px 0;
+}
+
+.subscribe p {
+    padding-top: 5px;
+    margin-top: 0;
+
+}
+
+.subscribe input {
+    width: 325px;
+    height: 54px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.hover:hover {
+
+    color: white;
+    background-color: #F15B22;
+    border-radius: 5px;
+}
+
+.hov:hover {
+    border: 3px solid #F15B22;
+    border-radius: 50%;
+}
+
+/* footer end */
